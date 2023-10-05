@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;  
+}
+body::-webkit-scrollbar {
+    width: 5px;
+}
+body::-webkit-scrollbar-track {
+    background: #040404;
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: #483285;
+    border-radius: 20px;
+}
+body{
+    background-color: #1C1F52;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #040404;
+}
+.Nome-Header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.Link-Header {
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Link-Header:hover{
+    text-decoration: underline;
+    color: #483285;
+}
+.Conteudo-Principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.Box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 420px;
+    height: 250px;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: end;
+    padding: 70px 20px 70px 20px;
+    margin: 30px 0px 30px 30px;
+    background-color: #1D1D1D;
+}
+.Box2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 420px;
+    height: 250px;
+    font-size: 20px;
+    text-align: start;
+    padding: 70px 20px 70px 20px;
+    margin: 30px 30px 30px 0px;
+    background-color: #333AA0;
+}
+.Icones-Links{
+    display: flex;
+    position: relative;
+    top: -10%;
+    left: -10%;
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+.git:hover path{
+    fill: #333AA0;
+}
+.linkedin:hover path{
+    fill: #333AA0;
+}
+.Tecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #1d1d1d;
+}
+.Tec-Titulo{
+    padding: 25px;
+    font-size: 25px;
+}
+.Tecnologias-Icones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.Html, .Css, .Php, .React{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.Html:hover, .Css:hover, .Php:hover, .React:hover{
+    transform: scale(1.05)
+}
+    @media(max-width: 800px){
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .Link-Header{
+            padding: 5px;
+        }
+    }
+    @media(max-width: 965px){
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding-top: 5px;
+            border: 2px;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            border-style: solid;
+            border-color: #483285;
+        }
+        .Conteudo-Principal{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Box1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 30px 30px 0 30px;
+        }
+        .Box2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0px 30px 30px 30px;
+        }
+    }
+    @media(max-width: 470px){
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Box1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 50px;
+            width: 300px;
+        }
+        .Box2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 300px;
+        }
+    }
+    @media(max-width: 340px) {
+        .Nome-Header{
+            font-size: 30px;
+        }
+        .Link-Header{
+            font-size: 14px;
+        } 
+        .Box1{
+            font-size: 30px;
+            width: 220px;
+            height: 100px;
+        } 
+        .Box2{
+            font-size: 11px;
+            width: 220px;
+            height: 100px;
+        }    
+    }
+    @media(max-width: 290px) {
+        .Box1, .Box2{
+            height: 100px;
+        }
+    }
