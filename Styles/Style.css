@@ -130,10 +130,6 @@ header{
             justify-content: center;
             align-items: center;
         }
-        
-        .Link-Header{
-            padding: 5px;
-        }
     }
     @media(max-width: 965px){
         header{
@@ -154,6 +150,9 @@ header{
             border-right: 0;
             border-style: solid;
             border-color: #483285;
+        }
+        .Link-Header{
+            padding: 5px;
         }
         .Conteudo-Principal{
             display: flex;
