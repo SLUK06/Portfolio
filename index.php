@@ -5,20 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');</style>
     <title>Portifólio Samuel Tonial</title>
-    <link rel="stylesheet" type="text/css" href="Styles/style.css">
+    <link rel="stylesheet" type="text/css" href="Styles/Style.css">
+    <link rel="stylesheet" type="text/css" href="Styles/Cards.css">
 </head> 
 <body>
-    <header>
-        <div class="Titulo-Nome">
-            <text class="Nome-Header"> SAMUEL TONIAL </text>
-        </div>
-        <nav class="Links">
-            <a class="Link-Header" href=#> Home </a>
-            <a class="Link-Header" href=#> Projetos </a>
-            <a class="Link-Header" href="Tecnologias"> Tecnologias </a>
-            <a class="Link-Header" href=#> Carreira Profissional </a>
-        </nav>
-    </header>
+<?php include 'includes/header.php'; ?>
     <main class="Conteudo-Principal">
         <div class="Box1">
             <text class="Box-Nome">S A M U E L </BR> T O N I A L</text>
@@ -37,12 +28,12 @@
         </div>
         <div class="Box2">
             <text class="Sobre-Inicio">
-                Estou iniciando na área de programação <b>Back-End</b> com foco em <b>PHP</b>, além de já ter conhecimentos em <b>HTML</b> e <B>CSS</B>. Atualmente estou no último ano do Ensino Médio, e pretendo cursar <b>Sistemas de Informação</b> ou algum outro curso da área de <b>TI</b>.
+                Estou iniciando na área de programação <b>Back-End</b> com foco em <b>PHP</b>, além de já ter conhecimentos em <b>HTML</b> e <B>CSS</B>. Atualmente estou no último ano do Ensino Médio, e pretendo cursar <b>Análise e Desenvolvimento de Sistemas</b> ou algum outro curso da área de <b>TI</b>.
             </text>
         </div>
     </main>
     <div class="Tecnologias">
-        <text class="Tec-Titulo"><b>T E C N O L O G I A S</b></text>
+        <text class="Tec-Titulo"><b>TECNOLOGIAS</b></text>
         <div class="Tecnologias-Icones">
             <div class="Html">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
@@ -71,8 +62,11 @@
         </div>
     </div>
     <div class="Principais-Projetos">
-        <div class="Card-Projetos">
-            
+        <text><b>PRINCIPAIS PROJETOS</b></text>
+        <div class="Cards">
+            <div class="Card-SmartMaintenance">
+                
+            </div>
         </div>
     </div>
 </body>

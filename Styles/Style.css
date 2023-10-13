@@ -105,6 +105,8 @@ header{
 .Tec-Titulo{
     padding: 25px;
     font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
 }
 .Tecnologias-Icones{
     display: flex;
@@ -123,17 +125,9 @@ header{
 .Html:hover, .Css:hover, .Php:hover, .React:hover{
     transform: scale(1.05)
 }
-    @media(max-width: 800px){
-        header{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    }
-    @media(max-width: 965px){
-        header{
-            display: flex;
+@media(max-width: 965px){
+    header{
+        display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -175,49 +169,57 @@ header{
             margin: 0px 30px 30px 30px;
         }
     }
-    @media(max-width: 470px){
-        header{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .Box1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            font-size: 50px;
-            width: 300px;
-        }
-        .Box2{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            width: 300px;
-        }
+@media(max-width: 800px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    @media(max-width: 340px) {
-        .Nome-Header{
-            font-size: 30px;
-        }
-        .Link-Header{
-            font-size: 14px;
-        } 
-        .Box1{
-            font-size: 30px;
-            width: 220px;
-            height: 100px;
-        } 
-        .Box2{
-            font-size: 11px;
-            width: 220px;
-            height: 100px;
-        }    
+}
+@media(max-width: 470px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    @media(max-width: 290px) {
-        .Box1, .Box2{
-            height: 100px;
-        }
+    .Box1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        width: 300px;
     }
+    .Box2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+    }
+}
+@media(max-width: 340px) {
+    .Nome-Header{
+        font-size: 30px;
+    }
+    .Link-Header{
+        font-size: 14px;
+    } 
+    .Box1{
+        font-size: 30px;
+        width: 220px;
+        height: 100px;
+    } 
+    .Box2{
+        font-size: 11px;
+        width: 220px;
+        height: 100px;
+    }    
+}
+@media(max-width: 290px) {
+    .Box1, .Box2{
+        height: 100px;
+    }
+}

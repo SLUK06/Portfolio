@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;  
+}
+.Principais-Projetos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Principais-Projetos text{
+    padding: 25px;
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+}
+.Card-SmartMaintenance{
+    width: 300px;
+    height: 400px;
+    background-color: #333AA0;
+}
