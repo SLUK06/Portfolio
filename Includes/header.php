@@ -11,7 +11,7 @@
         $paginaAtual = basename($_SERVER['SCRIPT_FILENAME']);
         
         $paginaHome = "index.php";
-        $paginaProjetos = "Prejetos.php";
+        $paginaProjetos = "Projetos.php";
         $paginaTecnologias = "Tecnologias.php";
         $paginaFeedback = "Feedback.php";
         
