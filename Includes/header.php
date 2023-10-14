@@ -6,9 +6,30 @@
         <text class="Nome-Header"> SAMUEL TONIAL </text>
     </div>
     <nav class="Links">
-        <a class="Link-Header" href="../index.php"> Home </a>
-        <a class="Link-Header" href=#> Projetos </a>
-        <a class="Link-Header" href=#> Tecnologias </a>
-        <a class="Link-Header" href="Pages/Feedback.php"> Deixe seu Feedback </a>
+        <?php
+        
+        $paginaAtual = basename($_SERVER['SCRIPT_FILENAME']);
+        
+        $paginaHome = "index.php";
+        $paginaProjetos = "Prejetos.php";
+        $paginaTecnologias = "Tecnologias.php";
+        $paginaFeedback = "Feedback.php";
+        
+        if($paginaAtual !== $paginaHome){
+            echo '<a class="Link-Header" href="../index.php"> Home </a>';
+        }
+
+        if($paginaAtual !== $paginaProjetos){
+            echo '<a class="Link-Header" href=#> Projetos </a>';
+        }
+
+        if($paginaAtual !== $paginaTecnologias){
+            echo '<a class="Link-Header" href=#> Tecnologias </a>';
+        }
+
+        if ($paginaAtual !== $paginaFeedback){
+            echo '<a class="Link-Header" href="Pages/Feedback.php"> Deixe seu Feedback </a>';
+        }
+        ?>
     </nav>
 </header>

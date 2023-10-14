@@ -40,11 +40,15 @@ header{
     font-weight: bold;
     text-decoration: none;
 }
+.Link-Feedback{
+    color: #483285;
+}
 .Link-Header:hover{
     text-decoration: underline;
     color: #483285;
 }
 .Conteudo-Principal{
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: center;

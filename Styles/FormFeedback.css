@@ -42,11 +42,50 @@
     border: 2px solid #1d1d1d;
     background-color: #483285;  
 }
+
+/*
+ *resultados feedbacks
+ */
+.feedbacks{
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 15px;
+    background-color: #333AA0;
+}
+.feed-nome{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-self: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.feed-conteudo{
+    margin-bottom: 15px;
+    padding: 0 10px 0 15px;
+}
+.feed-data{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-size: 12px;
+}
+
 @media(max-width: 740px){
     .form-feedback{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+    }
+    .feedbacks{
+        min-width: none;
     }
 }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="Styles/Cards.css">
 </head> 
 <body>
-<?php include 'includes/header.php'; ?>
+<?php include 'Includes/header.php'; ?>
     <main class="Conteudo-Principal">
         <div class="Box1">
             <text class="Box-Nome">S A M U E L </BR> T O N I A L</text>
@@ -65,7 +65,7 @@
         <text><b>PRINCIPAIS PROJETOS</b></text>
         <div class="Cards">
             <div class="Card-SmartMaintenance">
-                
+                Em Construção
             </div>
         </div>
     </div>
