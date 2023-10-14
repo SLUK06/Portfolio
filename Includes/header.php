@@ -7,14 +7,16 @@
     </div>
     <nav class="Links">
         <?php
-        
+        //declarando que a página atual é igual ao arquivo aberto
         $paginaAtual = basename($_SERVER['SCRIPT_FILENAME']);
         
+        //declarando nome das paginas
         $paginaHome = "index.php";
         $paginaProjetos = "Projetos.php";
         $paginaTecnologias = "Tecnologias.php";
         $paginaFeedback = "Feedback.php";
         
+        //lógica de ocultar link da página que está aberta
         if($paginaAtual !== $paginaHome){
             echo '<a class="Link-Header" href="../index.php"> Home </a>';
         }

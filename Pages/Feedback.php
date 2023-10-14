@@ -61,6 +61,7 @@ $conn->close();
             </div>
             <button type="submit" class="btn-submit">Enviar</button>
         </form>
+        <!-- exibe mensagem de sucesso ou de erro ná página -->
         <text><?php echo $msgSucessoErro ?></text>
         <?php for ($i = 0; $i < count($nomeRes); $i++) { ?>
         <div class="feedbacks">
