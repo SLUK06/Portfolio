@@ -64,8 +64,10 @@
     <div class="Principais-Projetos">
         <text><b>PRINCIPAIS PROJETOS</b></text>
         <div class="Cards">
-            <div class="Card-SmartMaintenance">
-                Em Construção
+            <div class="Card-Login">
+                <div class="Image-Login">
+                    <img src="src/loginInicio.png">
+                </div>
             </div>
         </div>
     </div>
