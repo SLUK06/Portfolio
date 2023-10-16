@@ -31,9 +31,6 @@
     justify-self: center;
     width: 300px;
     height: 400px;
+    padding: 10px;
     background-color: #333AA0;
-}
-.Image-Login{
-    width: 150px;
-    height: 250px;
 }

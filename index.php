@@ -65,9 +65,7 @@
         <text><b>PRINCIPAIS PROJETOS</b></text>
         <div class="Cards">
             <div class="Card-Login">
-                <div class="Image-Login">
-                    <img src="src/loginInicio.png">
-                </div>
+                Em Construção
             </div>
         </div>
     </div>
