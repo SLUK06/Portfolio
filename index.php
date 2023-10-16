@@ -64,8 +64,11 @@
     <div class="Principais-Projetos">
         <text><b>PRINCIPAIS PROJETOS</b></text>
         <div class="Cards">
-            <div class="Card-Login">
+            <div class="Card-SmartMaintenance">
                 Em Construção
+            </div>
+            <div class="Card-Login">
+
             </div>
         </div>
     </div>
