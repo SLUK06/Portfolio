@@ -8,9 +8,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST["Nome"];
     $conteudo = $_POST["Conteudo"];
     
-    $sql = "INSERT INTO feedbacks (nome, conteudo) VALUES ('$nome', '$conteudo')";
+    $sql = "INSERT INTO feedbacks (nome, conteudo) VALUES (?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ss", $nome, $conteudo);
+    $stmt->execute();
+    $resultConn = $stmt->get_result();
 
-    if ($conn->query($sql) === TRUE) {
+    if ($resultConn !== TRUE) {
         $msgSucessoErro =  "Feedback enviado com SUCESSO!</br>";
 
         header("Location: " . $_SERVER['PHP_SELF']);
