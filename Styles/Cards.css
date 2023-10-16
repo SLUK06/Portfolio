@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
 }
-.Principais-Projetos text{
+.Proj-Titulo{
     padding: 25px;
     font-size: 25px;
     word-spacing: 10px;
@@ -25,21 +25,43 @@
     justify-content: center;
     margin: 30px 20px;
 }
-.Card-SmartMaintenance{
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    width: 300px;
-    height: 400px;
-    padding: 10px;
-    background-color: #333AA0;
-}
 .Card-Login{
     display: flex;
-    align-self: center;
-    justify-self: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
     width: 300px;
-    height: 400px;
-    padding: 10px;
+    height: 500px;
     background-color: #333AA0;
 }
+.Titulo-Cards{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img-login{
+    max-width: 250px;
+    max-height: 330px;
+    width: auto;
+    height: auto;
+    margin: 25px;
+    align-self: flex-start;
+}
+.Links-Projetos{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Link-Projeto, .Link-Codigo{
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #1D1D1D;
+}
+.Link-Projeto:hover, .Link-Codigo:hover{
+    text-decoration: dotted;
+    color: #333AA0;
+}
+

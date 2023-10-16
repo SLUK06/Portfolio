@@ -62,13 +62,15 @@
         </div>
     </div>
     <div class="Principais-Projetos">
-        <text><b>PRINCIPAIS PROJETOS</b></text>
+        <text class="Proj-Titulo"><b>PRINCIPAIS PROJETOS</b></text>
         <div class="Cards">
-            <div class="Card-SmartMaintenance">
-                Em Construção
-            </div>
             <div class="Card-Login">
-
+                <img class="img-login" src="src/loginInicio.png">
+                <text class="Titulo-Cards"><b>Login com Nível de Acesso</b></text>
+                <div class="Links-Projetos">
+                    <a class="Link-Projeto" href="https://contasnivelacesso.000webhostapp.com">Ver Projeto</a>
+                    <a class="Link-Codigo" href="https://github.com/SLUK06/TelaLoginFuncional">Ver Código</a>
+                </div>
             </div>
         </div>
     </div>
