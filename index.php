@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');</style>
-    <title>Portifólio Samuel Tonial</title>
+    <title>Portfólio Samuel Tonial</title>
     <link rel="stylesheet" type="text/css" href="Styles/Style.css">
     <link rel="stylesheet" type="text/css" href="Styles/Cards.css">
 </head> 
@@ -65,11 +65,11 @@
         <text class="Proj-Titulo"><b>PRINCIPAIS PROJETOS</b></text>
         <div class="Cards">
             <div class="Card-Login">
-                <img class="img-login" src="src/loginInicio.png">
-                <text class="Titulo-Cards"><b>Login com Nível de Acesso</b></text>
+                <img class="img-login" src="src/publicaSlo.png">
+                <text class="Titulo-Cards"><b>Rede Social Publica SLO</b></text>
                 <div class="Links-Projetos">
-                    <a class="Link-Projeto" href="https://contasnivelacesso.000webhostapp.com" target="_blank">Ver Projeto</a>
-                    <a class="Link-Codigo" href="https://github.com/SLUK06/TelaLoginFuncional" target="_blank">Ver Código</a>
+                    <a class="Link-Projeto" href="https://publicaslo.000webhostapp.com/Pages/Home.php" target="_blank">Ver Projeto</a>
+                    <a class="Link-Codigo" href="https://github.com/SLUK06/PublicaSLO" target="_blank">Ver Código</a>
                 </div>
             </div>
         </div>

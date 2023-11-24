@@ -30,7 +30,7 @@
         }
 
         if ($paginaAtual !== $paginaFeedback){
-            echo '<a class="Link-Header" href="../PaginaWebPortifólio/Pages/Feedback.php"> Deixe seu Feedback </a>';
+            echo '<a class="Link-Header" href="Pages/Feedback.php"> Deixe seu Feedback </a>';
         }
         ?>
     </nav>

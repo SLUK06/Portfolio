@@ -1,8 +1,13 @@
 <?php
+include "../Includes/config.php";
+
 $msgSucessoErro = "";
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 //inserir dados no banco de dados
-include "../Includes/config.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $nome = $_POST["Nome"];
