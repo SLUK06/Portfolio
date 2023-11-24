@@ -120,13 +120,13 @@ header{
     align-items: center;
     padding-bottom: 30px;
 }
-.Html, .Css, .Php, .React{
+.Html, .Css, .Php, .Js, .React{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
 }
-.Html:hover, .Css:hover, .Php:hover, .React:hover{
+.Html:hover, .Css:hover, .Php:hover, .Js:hover, .React:hover{
     transform: scale(1.05)
 }
 @media(max-width: 965px){
